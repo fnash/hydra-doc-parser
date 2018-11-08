@@ -3,3 +3,4 @@ composer.lock
 /vendor/
 *.hydra-doc.json
 .idea
+test.php
