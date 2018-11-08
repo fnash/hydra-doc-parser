@@ -1,0 +1,20 @@
+{
+    "name": "fnash/hydra-doc-parser",
+    "description": "Hydra API documentation parser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fayez Naccache",
+            "email": "fayez.naccache@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fnash\\HydraDoc\\": "HydraDoc/"
+        }
+    },
+    "require": {
+        "skyscanner/jsonpath": "^1.0"
+    }
+}
