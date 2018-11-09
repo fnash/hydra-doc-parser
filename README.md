@@ -1,12 +1,11 @@
 # hydra-doc-parser
-parser for Hydra documentation
+Parse Hydra documentation to extract Resources and readable Fields.
+Detects if a given field is a scalar, or a link (jsonld IRI) to one or many Resources.
 
 ## Install
 ```bash
 $ composer require fnash/hydra-doc-parser dev-master
 ```
-
-
 
 ## Use
 ```php
