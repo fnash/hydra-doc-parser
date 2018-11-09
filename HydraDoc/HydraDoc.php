@@ -126,7 +126,7 @@ final class HydraDoc
 
     private function parseEntrypoint()
     {
-        return $this->jsonObject->get('$["hydra:title"]');
+        return $this->jsonObject->get('$["hydra:entrypoint"]');
     }
 
     /**
