@@ -97,6 +97,10 @@ final class HydraDoc
 
             $readableFields = $this->parseReadableFields($resourceName);
 
+            if (!is_array($readableFields)) {
+                continue;
+            }
+
             foreach ($readableFields as $fieldName) {
                 $field = $this->createField($resourceName, $fieldName);
 
